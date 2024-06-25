@@ -1,0 +1,31 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "484dbb72-1d42-455e-9bb2-b0f3b5509b70",
+  "alias": "QueriesWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198322f80",
+      "group": {
+        "default": "SuperWebParts"
+      },
+      "title": {
+        "default": "Query SPFX"
+      },
+      "description": {
+        "default": "Use this webpart to upload files to a library or as list attachments"
+      },
+      "officeFabricIconFontName": "OpenFile",
+      "properties": {
+        "listName": "Queries",
+        "subjectFieldName":"Title",
+        "contentFieldName":"Description",
+        "fileTypes": "jpg,png,gif,avi,mp4",
+        "uploadFilesTo": "DocumentLibrary"
+      }
+    }
+  ]
+}

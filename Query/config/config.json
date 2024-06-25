@@ -1,0 +1,28 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "file-upload-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/NewEmployees/NewEmployeesWebPart.js",
+          "manifest": "./src/webparts/NewEmployees/NewEmployeesWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "react": {
+      "path": "//",
+      "globalName": "React"
+    },
+    "react-dom": {
+      "path": "//",
+      "globalName": "ReactDOM"
+    }
+  },
+  "localizedResources": {
+    "MessageAlertWebPartStrings": "lib/webparts/NewEmployees/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}

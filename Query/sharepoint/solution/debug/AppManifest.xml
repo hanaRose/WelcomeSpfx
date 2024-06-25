@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest" Name="query-spfx-client-side-solution" ProductID="2a135eae-8d53-49c3-a1d8-d974e094c026" Version="1.0.0.0" SharePointMinVersion="16.0.0.0" IsClientSideSolution="true" SkipFeatureDeployment="true"><Properties><Title>query-spfx-client-side-solution</Title></Properties></App>
